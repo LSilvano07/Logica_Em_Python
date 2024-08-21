@@ -15,3 +15,7 @@ def multi(x):
 lista2 = list(map(multi, lista1))
 print(lista2)
 
+
+entrada = input().split()
+dici = {x == entrada for x in entrada}
+print(dici)

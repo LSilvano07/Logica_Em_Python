@@ -1,16 +1,14 @@
 #MAP e Lamda - Economizar linha de código, código mais limpo e veloz
 
-lista1 = [1, 2, 3, 4]
+lista1 = [1, 2, 3, 4, 5, 6 , 7, 8, 9, 10]
 
 #def multi(x):
     #return x * 2
 #lista2 = list(map(multi, lista1))  ---- TUDO EM UMA LINHA SÓ
 #print(lista2)
 
-lista2 = list(map(lambda x: x * 2, lista1))
-print(lista2)
 
-lista2 = [i*10 for i in lista2 if i > 0]
+lista2 = [i*2 for i in lista1]
 print(lista2)
 
 
